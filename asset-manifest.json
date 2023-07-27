@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sport-application/static/css/main.20acbc28.css",
+    "main.js": "/sport-application/static/js/main.0b0d0274.js",
+    "static/media/banner.png": "/sport-application/static/media/banner.5209b5e92a864ca0c615.png",
+    "static/media/gym.png": "/sport-application/static/media/gym.6e701417c428e2fbc267.png",
+    "index.html": "/sport-application/index.html",
+    "main.20acbc28.css.map": "/sport-application/static/css/main.20acbc28.css.map",
+    "main.0b0d0274.js.map": "/sport-application/static/js/main.0b0d0274.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20acbc28.css",
+    "static/js/main.0b0d0274.js"
+  ]
+}
