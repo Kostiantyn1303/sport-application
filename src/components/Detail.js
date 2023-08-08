@@ -34,12 +34,13 @@ const Detail = ({ exerciseDetail }) => {
           sx={{ fontSize: { lg: '64px', xs: '30px' } }}
           fontWeight={700}
           textTransform="capitalize"
+          color="#CAC0B3"
         >
           {name}
         </Typography>
         <Typography
           sx={{ fontSize: { lg: '24px', xs: '18px' } }}
-          color="#4F4C4C"
+          color="#CAC0B3"
         >
           Exercises keep you strong.
           <span style={{ textTransform: 'capitalize' }}>{name}</span> bup is one
@@ -65,6 +66,7 @@ const Detail = ({ exerciseDetail }) => {
             <Typography
               textTransform="capitalize"
               sx={{ fontSize: { lg: '30px', xs: '20px' } }}
+              color="#CAC0B3"
             >
               {item.name}
             </Typography>

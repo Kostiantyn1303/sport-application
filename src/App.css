@@ -1,6 +1,6 @@
 body {
   font-family: 'Josefin Sans';
-  background-color: #fffafb;
+  background-color: #001233;
 }
 
 * {
@@ -50,21 +50,27 @@ body {
 .detail-image {
   width: 729px;
   height: 742px;
+  border-radius: 10%;
 }
 
 .hero-banner-img {
   position: absolute;
   right: 40px;
   top: 0px;
-  width: 700px;
-  height: 900px;
+  width: 600px;
+  height: 800px;
   margin-top: -330px;
+  border-radius: 10%;
+}
+.image_container {
+  background-color: #cac0b3;
+  border-radius: 50%;
 }
 
 .exercise-card {
   width: 400px;
   height: 445px;
-  background: #fff;
+  background: white;
   border-top: 4px solid #ff2625;
   border-bottom-left-radius: 20px;
   text-decoration: none;
@@ -84,6 +90,18 @@ body {
   transform: scale(1, 1);
   transition: 0.3s all ease-in-out;
 }
+.pagination {
+  background-color: white;
+  opacity: 0.7;
+  border-radius: 10%;
+}
+.navigation_link:hover {
+  color: #ff2625 !important;
+  border-bottom: 1px solid #cac0b3;
+}
+.hero_explore--exercise:hover {
+  background-color: #ff2625 !important;
+}
 
 .exercise-card:hover,
 .bodyPart-card:hover {
@@ -91,8 +109,7 @@ body {
 }
 
 .search-btn:hover {
-  color: #ff2625 !important;
-  border: 1px solid #ff2625 !important;
+  background-color: #ff2625 !important;
 }
 
 .exercise-video {
@@ -102,6 +119,10 @@ body {
   width: 387px;
   height: 381px;
   text-decoration: none;
+  color: #cac0b3;
+}
+.exercise-video:hover {
+  color: #ff2625;
 }
 
 @media screen and (max-width: 1200px) {

@@ -15,26 +15,29 @@ const Navbar = () => {
       px="20px"
     >
       <Link to="/">
-        <img
-          src={Logo}
-          alt="logo"
-          style={{ width: '48px', height: '48px', margin: '0 20px' }}
-        />
+        <div className="image_container">
+          <img
+            src={Logo}
+            alt="logo"
+            style={{ width: '48px', height: '48px', margin: '0 20px' }}
+          />
+        </div>
       </Link>
       <Stack direction="row" gap="40px" fontSize="24px" alignItems="flex-end">
         <Link
+          className="navigation_link"
           to="/"
           style={{
             textDecoration: 'none',
-            color: '#3A1212',
-            borderBottom: '3px solid #FF2625',
+            color: '#FF595A',
           }}
         >
           Home
         </Link>
         <a
+          className="navigation_link"
           href="#exercises"
-          style={{ textDecoration: 'none', color: '#3A1212' }}
+          style={{ textDecoration: 'none', color: '#FF595A' }}
         >
           Exercises
         </a>

@@ -47,6 +47,7 @@ function SearchExercises({ setExercises, bodyPart, setBodyPart }) {
         sx={{ fontSize: { lg: '44px', xs: '30px' } }}
         mb="49px"
         textAlign="center"
+        color="#CAC0B3"
       >
         Awesome Exercises You <br /> Should Know
       </Typography>
@@ -67,7 +68,7 @@ function SearchExercises({ setExercises, bodyPart, setBodyPart }) {
         <Button
           className="search-btn"
           sx={{
-            bgcolor: '#FF2625',
+            bgcolor: '#FF595A',
             color: '#fff',
             textTransform: 'none',
             width: { lg: '173px', xs: '80px' },

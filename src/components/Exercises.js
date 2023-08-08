@@ -51,6 +51,7 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
   return (
     <Box id="exercises" sx={{ mt: { lg: '109px' } }} mt="50px" p="20px">
       <Typography
+        color="#CAC0B3"
         variant="h4"
         fontWeight="bold"
         sx={{ fontSize: { lg: '44px', xs: '30px' } }}
@@ -71,7 +72,8 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
       <Stack sx={{ mt: { lg: '114px', xs: '70px' } }} alignItems="center">
         {exercises.length > 9 && (
           <Pagination
-            color="standard"
+            className="pagination"
+            color="primary"
             shape="rounded"
             defaultPage={1}
             count={Math.ceil(exercises.length / exercisesPerPage)}
